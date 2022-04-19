@@ -1,0 +1,110 @@
+
+body{
+    background-image: url("imagem/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+#menuSidebar{
+    height: 100%;
+   width: 350px;
+   background-color:lightslategray;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   border-radius: 10px;
+   margin-right: 40px;
+       
+     }
+  
+     #menuSidebar img{
+       border-radius: 80px;
+       width: 100px;
+       height: 100px;
+       margin-top: 40px;
+       margin-left: 120px;
+      border: 10px solid whitesmoke  
+      
+   }
+
+   #menuSidebar h2{
+    margin-left: 110px;
+    color: aliceblue;
+    font-size: 20px;
+}
+      
+   
+    .textosimg{
+       display: flex;
+       flex-direction: column;
+       justify-content: right;
+       margin-left: 40%;
+       margin-top: 20%;
+       
+     
+   
+    }
+   .textosimg h1{
+        font-size: 70px;
+    }
+
+    .textosimg h3{
+        text-decoration: underline goldenrod 5px;
+        size: 50px;
+    }
+
+    .MenuHorizontal{
+        margin-left: 15px;
+        display: flex;
+        padding: 20px;
+        justify-content:space-around;   
+    }
+ 
+  
+   
+   .rodape{
+       margin-left: 40px;
+       margin-top: 160px;
+       border:  1px solid yellow;
+       align-items: center;
+       background-color:goldenrod;
+       margin-right: 30px;
+   }
+  
+      
+   #menuSidebar a{
+       color: aliceblue;
+       text-decoration: none;
+   }
+   
+   #menuSidebar a:hover{
+       scale: (1.1);
+       color:goldenrod;
+     
+    
+   }
+
+
+   .MenuVertical{
+    margin-right: 10px;
+     margin-top: 50px;
+    
+   }
+
+   .MenuVertical i{
+    width:  50px;
+    height:auto;
+     margin-left: 30px; 
+     display: flex;
+     margin-top: 30px;
+     justify-content:space-between;
+     gap: 20px;
+    
+   }
+
+  
